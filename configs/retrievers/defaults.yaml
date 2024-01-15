@@ -1,0 +1,4 @@
+defaults:
+  - vector_store: cloud_qdrant
+  #- SQL: ???
+  #- NoSQL: ???

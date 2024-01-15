@@ -1,0 +1,5 @@
+_target_:  langchain_community.vectorstores.Qdrant
+collection_name: "boe"
+embeddings:
+  _target_: langchain_openai.embeddings.OpenAIEmbeddings
+  api_key: ${oc.env:OPENAI_API_KEY}

@@ -1,0 +1,8 @@
+defaults:
+  - llms: defaults
+  - prompts: defaults
+  - retrievers: defaults
+  - routers: router
+  - tools: defaults
+
+agent_name: "Asistente Legal"

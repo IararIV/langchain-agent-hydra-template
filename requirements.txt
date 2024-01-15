@@ -1,0 +1,6 @@
+openai
+langchain
+langchain-openai
+python-dotenv
+hydra-core
+langchain[docarray]

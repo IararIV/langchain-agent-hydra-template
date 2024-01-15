@@ -1,0 +1,9 @@
+# Generate document
+generate_document_prompt: >
+  Debes ayudar en la siguiente tarea: {message}.  
+  Utiliza la siguiente información para realizar la taera: {context}.
+
+# Analyze document
+analyze_document_prompt: >
+  Debes ayudar en la siguiente tarea: {message}.  
+  Utiliza la siguiente información para realizar la taera: {context}.

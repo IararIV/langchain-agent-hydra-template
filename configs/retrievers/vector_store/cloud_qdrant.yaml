@@ -1,0 +1,9 @@
+_target_:  langchain_community.vectorstores.Qdrant
+client:
+  _target_: qdrant_client.QdrantClient
+  url: ${oc.env:QDRANT_URL}
+  api_key: ${oc.env:QDRANT_API_KEY}
+collection_name: "boe"
+embeddings:
+  _target_: langchain_openai.embeddings.OpenAIEmbeddings
+  api_key: ${oc.env:OPENAI_API_KEY}

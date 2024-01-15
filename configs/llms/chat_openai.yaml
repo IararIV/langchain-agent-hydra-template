@@ -1,0 +1,3 @@
+chat_openai:
+  _target_: langchain_openai.ChatOpenAI
+  api_key: ${oc.env:OPENAI_API_KEY}

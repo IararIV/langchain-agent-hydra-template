@@ -1,0 +1,2 @@
+defaults:
+  -  vector_stores: qdrant

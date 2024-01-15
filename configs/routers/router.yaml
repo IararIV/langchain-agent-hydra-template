@@ -1,0 +1,9 @@
+router:
+  _target_: llm_agent.routers.router.Router
+  llm: ${llms.chat_openai}
+  prompt: ${prompts.router_prompt}
+  parser: 
+    _target_: langchain.output_parsers.openai_functions.JsonOutputFunctionsParser
+  description: "router to choose between different tasks"
+
+router.llm.temperature: 0
